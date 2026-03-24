@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workouts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h2>FitLife</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="workouts.html">Workouts</a></li>
+      <li><a href="progress.html">Progress</a></li>
+    </ul>
+  </nav>
+
+  <section class="workouts">
+    <h1>Workout Plans</h1>
+    <div class="card" onclick="showWorkout('Pushups')">Pushups</div>
+    <div class="card" onclick="showWorkout('Squats')">Squats</div>
+    <div class="card" onclick="showWorkout('Plank')">Plank</div>
+  </section>
+
+  <div id="workoutDetail" class="popup"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
